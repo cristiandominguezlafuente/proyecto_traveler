@@ -1,0 +1,197 @@
+/* GENERAL */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display", sans-serif;
+  background-color: #ffffff;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.login-container {
+  width: 320px;
+  margin: 34px auto 0;
+}
+
+/* TITULO */
+.login-container h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #181818;
+  margin-bottom: 32px;
+}
+
+/* FORMULARIO */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* CAMPOS */
+.campo-login {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.campo-login label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #181818;
+}
+
+.campo-login input {
+  width: 100%;
+  height: 36px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+}
+
+/* CONTRASEÑA */
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  padding-right: 35px;
+}
+
+.password-container img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  object-fit: contain;
+}
+
+/* OPCIONES */
+.opciones-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -3px;
+}
+
+.recordar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.recordar input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.opciones-login a {
+  color: #2f80ed;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* BOTONES */
+.login-form button {
+  width: 100%;
+  height: 36px;
+  border-radius: 5px;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* CONTINUE WITH EMAIL */
+.btn-email {
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: none;
+  margin-top: -2px;
+}
+
+/* SEPARADOR */
+.separador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e0e0e0;
+  height: 1px;
+  margin: 9px 0 11px;
+}
+
+.separador span {
+  background-color: #ffffff;
+  padding: 0 10px;
+  color: #4f4f4f;
+  font-size: 12px;
+}
+
+/* GOOGLE */
+.btn-google {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  color: #4f4f4f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.google-icon {
+  font-size: 20px;
+  font-weight: 700;
+  background: conic-gradient(
+    #4285f4 0deg 90deg,
+    #34a853 90deg 180deg,
+    #fbbc05 180deg 270deg,
+    #ea4335 270deg 360deg
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* FACEBOOK */
+.btn-facebook {
+  background-color: #485d98;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.facebook-icon {
+  background-color: #ffffff;
+  color: #485d98;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  line-height: 19px;
+}
+
+/* REGISTRO */
+.registro {
+  text-align: center;
+  margin-top: 47px;
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+.registro a {
+  color: #2f80ed;
+  text-decoration: none;
+}
