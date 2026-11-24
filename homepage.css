@@ -385,12 +385,14 @@ main {
 
 .manoAnuncio {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  height: 100%;
+  right: 2%;
+  bottom: -135px;
+  width: 55%;
+  height: 175%;
   object-fit: contain;
-  object-position: right bottom;
+  object-position: center bottom;
+  transform: rotate(-15deg);
+  transform-origin: center center;
   z-index: 2;
 }
 
